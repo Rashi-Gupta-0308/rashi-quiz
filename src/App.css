@@ -1,7 +1,13 @@
+body{
+  margin: 0;
+  background-color: blueviolet;
+}
+
 #mainDiv{
-  height: 700px;
+  height: 100%;
   width: 100%;
-  margin: 1%;
+  margin: 0;
+  background-color: blueviolet;
 }
 
 #centreDiv{
@@ -10,25 +16,26 @@
   margin: auto;
   padding: 20px;
   margin-top: 5%;
-  background-color: rgb(61, 59, 59);
-  border-radius: 20px;
+  background-color: rgb(51, 0, 255);
+  border-radius: 10px;
   color: white;
-  border: 5px solid violet;
+  border: 5px solid white;
 }
 
 h1{
   text-align: center;
+  font-size: 50px;
 }
 
 h4{
-  color: violet;
+  color: yellow;
   font-weight: bold;
   margin-top: 10%;
   margin-left: 5%;
 }
 
 h2{
-  color: rgb(187, 183, 183);
+  color: white;
   font-weight: 500;
   margin: 6% 5%;
   font-size: 20px;
@@ -46,8 +53,8 @@ hr{
 }
 
 .optionDiv{
-  color: rgb(187, 183, 183);
-  border: 2px solid violet;
+  color: white;
+  border: 2px solid white;
   width: 96%;
   height: 40px;
   border-radius: 8px;
@@ -62,7 +69,8 @@ hr{
 }
 
 .selected{
-  background-color: blue;
+  background-color: yellow;
+  color: black;
 }
 
 .btn1{
@@ -72,18 +80,21 @@ hr{
 }
 .btn{
   border-radius: 5px;
-  background-color: violet;
   padding: 8px;
   font-size: 15px;
   font-weight: bolder;
   border: none;
   cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid white;
 }
 
 .button-disable{
   border-radius: 5px;
-  background-color: violet;
-  color: rgb(226, 218, 218);
+  border: 2px solid white;
+  background-color: blueviolet;
+  color: white;
   padding: 8px;
   font-size: 15px;
   font-weight: bolder;
@@ -98,4 +109,12 @@ hr{
   font-size: 30px;
   font-weight: bolder;
   color: yellow;
+}
+
+.progress{
+  text-align: center;
+  /* margin: 10px; */
+  font-size: 18px;
+  font-weight: bolder;
+  color: greenyellow;
 }

@@ -1,15 +1,13 @@
 import React from 'react';
 
-const Options = ({ current, selectedOption, setSelectedOption, score, setScore }) => {
+const Options = ({ current, selectedOption, setSelectedOption, setScore }) => {
 
   const handleClick = (option) => {
-    // Prevent multiple clicks from increasing score again
     if (selectedOption === null) {
       setSelectedOption(option);
       if (option === current.answer) {
         setScore(prev => prev + 1);
       }
-      console.log("Updated Score:", score + 1);
     }
   };
 

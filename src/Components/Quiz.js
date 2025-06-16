@@ -24,12 +24,13 @@ const Quiz = () => {
 
   return (
     <div id="centreDiv">
-      <h1>Quiz App</h1>
-
       {showResult ? (
-        <Result score={score} total={quizQuestions.length} />
+        <>
+          <Result score={score} total={quizQuestions.length} />
+        </>
       ) : (
         <>
+          <h1>Quiz App</h1>
           <h4>
             Question {currentQuestionIndex + 1} of {quizQuestions.length}
           </h4>
